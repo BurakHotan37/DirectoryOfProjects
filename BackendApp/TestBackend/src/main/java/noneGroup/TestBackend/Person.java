@@ -1,21 +1,35 @@
 package noneGroup.TestBackend;
 
+import javax.persistence.*;
+import javax.persistence.Id;
+@Entity
+@Table
 public class Person
 {
+    @Id
+    @SequenceGenerator(
+            name = "person_sequence",
+            sequenceName = "person_sequence",
+            allocationSize = 1
+    )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "person_sequence"
+    )
     private long id;
     private String name;
     private String surname;
-    private int age;
+    private Integer age;
     private String email;
 
-    public Person(long id, String name, String surname, int age, String email) {
+    public Person(long id,int age ,String email, String name, String surname) {
         this.id = id;
         this.name = name;
         this.surname = surname;
         this.age = age;
         this.email = email;
     }
-
+    public Person(){}
 
     @Override
     public String toString() {
