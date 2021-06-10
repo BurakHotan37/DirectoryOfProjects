@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="start the backend">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/PersonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="continue">
+      <change afterPath="$PROJECT_DIR$/littleExcercises/inJava/JUnitTest/MovieRental/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/littleExcercises/inJava/JUnitTest/MovieRental/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/littleExcercises/inJava/JUnitTest/MovieRental/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/littleExcercises/inJava/JUnitTest/MovieRental/TRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/TestBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/java/noneGroup/TestBackend/TestBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/TestBackend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +59,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="inJava.JUnitTest" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Burak\Desktop\DirectoryOfProjects" />
     </key>
@@ -78,7 +77,20 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBackendApplication (1)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inJava.JUnitTest.MovieRental.Customer" />
+      <module name="DirectoryOfProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inJava.JUnitTest.MovieRental.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DieMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inJava.MausLab.DieMain" />
       <module name="DirectoryOfProjects" />
@@ -98,6 +110,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="inJava.MausLab.Mauslab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inJava.JUnitTest.LifeInsurance.Main" />
+      <module name="DirectoryOfProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inJava.JUnitTest.LifeInsurance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,6 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Customer" />
         <item itemvalue="Application.TestBackendApplication (1)" />
         <item itemvalue="Application.DieMain (1)" />
         <item itemvalue="Application.TestBackendApplication" />
@@ -191,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622752996057</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="continue">
+      <created>1623280270887</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623280270887</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +244,8 @@
     <MESSAGE value="searchAlgo old project" />
     <MESSAGE value="RPS game to improve NameConvensions" />
     <MESSAGE value="start the backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="start the backend" />
+    <MESSAGE value="continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="continue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
