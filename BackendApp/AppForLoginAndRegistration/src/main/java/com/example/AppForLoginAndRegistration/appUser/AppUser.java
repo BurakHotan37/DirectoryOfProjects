@@ -32,8 +32,8 @@ public class AppUser implements UserDetails {
             generator = "student_sequence"
     )
     private Long id;
-    private String name;
-    private String username;
+    private String firstname;
+    private String lastname;
     private String email;
     private String password;
     @Enumerated(EnumType.STRING)
@@ -41,14 +41,19 @@ public class AppUser implements UserDetails {
     private boolean locked;
     private boolean enabled;
 
-    public AppUser(String name, String username, String email, String password, AppUserRole appUserRole, boolean locked, boolean enabled) {
-        this.name = name;
-        this.username = username;
+    public AppUser(String firstname, String lastname, String email, String password, AppUserRole appUserRole, boolean locked, boolean enabled) {
+        this.id = id;
+        this.firstname = firstname;
+        this.lastname = lastname;
         this.email = email;
         this.password = password;
         this.appUserRole = appUserRole;
         this.locked = locked;
         this.enabled = enabled;
+    }
+
+    public AppUser(String firstname, String lastname, String email, String password, AppUserRole user)
+    {
     }
 
     @Override
@@ -58,9 +63,32 @@ public class AppUser implements UserDetails {
         return Collections.singletonList(authority);
     }
 
-    @Override
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getPassword() {
-        return null;
+        return password;
     }
 
     @Override
@@ -75,16 +103,39 @@ public class AppUser implements UserDetails {
 
     @Override
     public boolean isAccountNonLocked() {
-        return !locked;
+        return false;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return true;
+        return false;
     }
 
-    @Override
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public AppUserRole getAppUserRole() {
+        return appUserRole;
+    }
+
+    public void setAppUserRole(AppUserRole appUserRole) {
+        this.appUserRole = appUserRole;
+    }
+
+    public boolean isLocked() {
+        return locked;
+    }
+
+    public void setLocked(boolean locked) {
+        this.locked = locked;
+    }
+
     public boolean isEnabled() {
         return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 }

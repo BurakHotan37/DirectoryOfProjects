@@ -13,6 +13,8 @@ public class RegistrationController
 {
     private RegistrationService registrationService;
 
+    private EmailValidator emailValidator;
+
     @PostMapping
     public String register(@RequestBody RegistrationRequest request)
     {

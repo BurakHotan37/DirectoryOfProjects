@@ -4,66 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="JUnitTest HfT">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_32_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/security/PasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_06_2021_16_46_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_06_2021_16_46__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="Registration and Login Testapplication">
+      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/EmailValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623317733175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Registration and Login Testapplication">
+      <created>1623429360329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623429360329</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +260,8 @@
     <MESSAGE value="start the backend" />
     <MESSAGE value="continue" />
     <MESSAGE value="JUnitTest HfT" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUnitTest HfT" />
+    <MESSAGE value="Registration and Login Testapplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registration and Login Testapplication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
