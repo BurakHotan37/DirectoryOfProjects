@@ -2,20 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AppForLoginAndRegistration" />
         <module name="TestBackend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AppForLoginAndRegistration" target="16" />
       <module name="TestBackend" target="11" />
       <module name="wrapper" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AppForLoginAndRegistration" options="-parameters" />
       <module name="TestBackend" options="-parameters" />
     </option>
   </component>

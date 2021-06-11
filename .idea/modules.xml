@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/AppForLoginAndRegistration.iml" filepath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/AppForLoginAndRegistration.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" filepath="$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackendApp/TestBackend/TestBackend.iml" filepath="$PROJECT_DIR$/BackendApp/TestBackend/TestBackend.iml" />
     </modules>

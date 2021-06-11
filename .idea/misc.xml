@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/BackendApp/TestBackend/pom.xml" />
+        <option value="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/pom.xml" />
       </list>
     </option>
   </component>
