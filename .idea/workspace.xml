@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="Registration and Login Testapplication">
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/EmailValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623429360329</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Registration and Login Testapplication">
+      <created>1623433328621</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623433328621</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
