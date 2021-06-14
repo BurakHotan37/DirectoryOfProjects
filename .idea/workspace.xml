@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="RegistrationService">
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/Confirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/ConfirmationTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/ConfirmationTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/appUser/AppUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/ConfirmationToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/ConfirmationTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/ConfirmationTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/ConfirmationTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/token/ConfirmationTokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,19 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppForLoginAndRegistrationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppForLoginAndRegistration.src.main.java.com.example.AppForLoginAndRegistration.AppForLoginAndRegistrationApplication" />
-      <module name="DirectoryOfProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AppForLoginAndRegistration.src.main.java.com.example.AppForLoginAndRegistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DieMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inJava.MausLab.Mauslab.DieMain" />
       <module name="DirectoryOfProjects" />
@@ -129,15 +116,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBackendApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="noneGroup.TestBackend.TestBackendApplication" />
-      <module name="TestBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="noneGroup.TestBackend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in AppForLoginAndRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AppForLoginAndRegistration" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,13 +153,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppForLoginAndRegistrationApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AppForLoginAndRegistration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AppForLoginAndRegistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.AppForLoginAndRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AppForLoginAndRegistration.AppForLoginAndRegistrationApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppForLoginAndRegistrationApplication (2)" />
+        <item itemvalue="JUnit.All in AppForLoginAndRegistration" />
+        <item itemvalue="JUnit.AppForLoginAndRegistrationApplicationTests.contextLoads" />
         <item itemvalue="JUnit.AppForLoginAndRegistrationApplicationTests" />
         <item itemvalue="JUnit.AppForLoginAndRegistration in DirectoryOfProjects" />
-        <item itemvalue="Application.TestBackendApplication (1)" />
-        <item itemvalue="Application.AppForLoginAndRegistrationApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -304,6 +302,15 @@
           <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.hql.internal.ast.QuerySyntaxException" package="org.hibernate.hql.internal.ast" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java/com/example/AppForLoginAndRegistration/registration/RegistrationService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

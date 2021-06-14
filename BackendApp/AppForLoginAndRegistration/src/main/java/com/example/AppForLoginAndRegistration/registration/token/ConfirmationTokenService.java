@@ -8,15 +8,15 @@ import java.util.Optional;
 
 @Service
 @AllArgsConstructor
-public class ConfirmationTokenService
-{
+public class ConfirmationTokenService {
+
     private final ConfirmationTokenRepository confirmationTokenRepository;
 
-    public void saveConfirmationToken(Confirmation token) {
+    public void saveConfirmationToken(ConfirmationToken token) {
         confirmationTokenRepository.save(token);
     }
 
-    public Optional<Confirmation> getToken(String token) {
+    public Optional<ConfirmationToken> getToken(String token) {
         return confirmationTokenRepository.findByToken(token);
     }
 

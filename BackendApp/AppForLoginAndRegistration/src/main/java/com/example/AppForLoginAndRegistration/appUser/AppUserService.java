@@ -1,6 +1,6 @@
 package com.example.AppForLoginAndRegistration.appUser;
 
-import com.example.AppForLoginAndRegistration.registration.token.Confirmation;
+import com.example.AppForLoginAndRegistration.registration.token.ConfirmationToken;
 import com.example.AppForLoginAndRegistration.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -53,7 +53,7 @@ public class AppUserService implements UserDetailsService
 
         String token = UUID.randomUUID().toString();
 
-        Confirmation confirmation = new Confirmation(
+        ConfirmationToken confirmation = new ConfirmationToken(
                 token,
                 LocalDateTime.now(),
                 LocalDateTime.now().plusMinutes(15),
