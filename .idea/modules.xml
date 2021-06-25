@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/AppForLoginAndRegistration.iml" filepath="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/AppForLoginAndRegistration.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" filepath="$PROJECT_DIR$/.idea/DirectoryOfProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendApp/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/BackendApp/SpringSecurity/SpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackendApp/TestBackend/TestBackend.iml" filepath="$PROJECT_DIR$/BackendApp/TestBackend/TestBackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendApp/awsImageUpload/awsImageUpload.iml" filepath="$PROJECT_DIR$/BackendApp/awsImageUpload/awsImageUpload.iml" />
     </modules>
   </component>
 </project>

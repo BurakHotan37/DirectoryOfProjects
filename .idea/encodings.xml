@@ -3,7 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BackendApp/SpringSecurity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BackendApp/SpringSecurity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BackendApp/TestBackend/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BackendApp/TestBackend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BackendApp/awsImageUpload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BackendApp/awsImageUpload/src/main/resources" charset="UTF-8" />
   </component>
 </project>

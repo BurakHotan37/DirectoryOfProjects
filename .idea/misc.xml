@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/BackendApp/TestBackend/pom.xml" />
         <option value="$PROJECT_DIR$/BackendApp/AppForLoginAndRegistration/pom.xml" />
+        <option value="$PROJECT_DIR$/BackendApp/awsImageUpload/pom.xml" />
+        <option value="$PROJECT_DIR$/BackendApp/SpringSecurity/pom.xml" />
       </list>
     </option>
   </component>
