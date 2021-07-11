@@ -33,7 +33,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                                     .username("MaxMustermann")
                                     .password(passwordEncoder.encode("password"))
                                     .roles("Employee").build();
-
-        return new InMemoryUserDetailsManager(MaxMusermann);
+        UserDetails AnnaMustermann = User.builder().username("AnnaMustermann")
+                        .password(passwordEncoder.encode("HelloWorld"))
+                        .roles("ADMIN")
+                        .build();
+        return new InMemoryUserDetailsManager(MaxMusermann, AnnaMustermann);
     }
 }

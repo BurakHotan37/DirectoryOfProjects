@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="testing some Spring Security functions">
-      <change afterPath="$PROJECT_DIR$/BackendApp/SpringSecurity/src/main/java/com/example/SpringSecurity/Security/PasswordConfig.java" afterDir="false" />
+    <list default="true" id="925a153c-be4e-4c41-924a-25da93ae4e6c" name="Default Changelist" comment="passwordencoder">
+      <change afterPath="$PROJECT_DIR$/BackendApp/SpringSecurity/src/main/java/com/example/SpringSecurity/Security/ApplicationUserPremission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendApp/SpringSecurity/src/main/java/com/example/SpringSecurity/Security/ApplicationUserRoles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApp/SpringSecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/SpringSecurity/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackendApp/SpringSecurity/src/main/java/com/example/SpringSecurity/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApp/SpringSecurity/src/main/java/com/example/SpringSecurity/Security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41315347" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -272,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624663409929</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="passwordencoder">
+      <created>1624830562304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624830562304</updated>
+    </task>
+    <task id="LOCAL-00014" summary="passwordencoder">
+      <created>1624830597391</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624830597391</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +302,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="emailVerificationBranch" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -309,7 +325,8 @@
     <MESSAGE value="RegistrationService" />
     <MESSAGE value="RegistrationService fixed bug" />
     <MESSAGE value="testing some Spring Security functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing some Spring Security functions" />
+    <MESSAGE value="passwordencoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="passwordencoder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,6 +346,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
