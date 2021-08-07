@@ -46,4 +46,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                                         .build();
         return new InMemoryUserDetailsManager(MaxMustermann, AnnaMustermann);
     }
+    //hello
 }
